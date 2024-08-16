@@ -54,7 +54,8 @@ console.log(maleGender);
 
 // 4 Завдання
 
-
+const notActive = friends.filter(friend => friend.isActive === false);
+console.log(notActive)
 
 // 5 Завдання
 
